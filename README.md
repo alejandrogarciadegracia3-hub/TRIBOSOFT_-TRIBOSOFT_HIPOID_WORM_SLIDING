@@ -70,3 +70,4 @@ Seções 33–39
 38 — Resultados e análise do modelo
 39 — Conclusões matemáticas
 
+![Eloid spiral bevel gear cutting simulation](Eloid%20spiral%20bevel%20gear%20cutting%20sim%28360P%29_2.gif)
