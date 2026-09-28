@@ -3,6 +3,8 @@
 TRIBO_SOFT
 
 
+![SBP_2236-1](SBP_2236-1.jpg)
+
 
 Apresentação do trabalho
 
