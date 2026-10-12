@@ -243,7 +243,7 @@ Este trabalho reúne a investigação geométrica e cinemática de engrenagens c
 
 A investigação aborda a espiral de Arquimedes, sua representação plana e cônica, os ângulos associados à curva e as relações geométricas relevantes para a geração de dentes. Também examina o percurso de contato entre flancos conjugados, distinguindo a trajetória do ponto de contato da linha de contato instantânea.
 
-![Simulação de corte de engrenagem espiral](<Eloid spiral bevel gear cutting sim(360P)_1.gif>)
+![Simulação de corte de engrenagem espiral](<Eloid spiral bevel gear cutting sim(360P)_2.gif>)
 
 A comparação entre engrenagens espirais de eixos intersectantes e engrenagens hipóides considera o *offset* entre os eixos e suas consequências para a cinemática e para o deslizamento. O estudo também diferencia o contato geométrico ideal do contato sob carga, no qual a deformação elástica modifica a distribuição de pressão e a região efetiva de contato.
 
