@@ -229,3 +229,42 @@ Se usar este trabalho, cite também as fontes da [seção 2](#2-referências).
 
 > [!IMPORTANT]
 > Este é um modelo de estudo. Não é uma ferramenta validada para projeto de componentes.
+
+
+# Estudo geométrico de engrenagens espirais e hipóides — origem do TRIBOSOFT
+
+## Apresentação
+
+Este trabalho reúne a investigação geométrica e cinemática de engrenagens cônicas espirais e hipóides e o desenvolvimento matemático que antecedeu o simulador tribológico. O software final é uma etapa posterior de um percurso mais amplo: primeiro foram estudadas as superfícies, a geração das curvas e o movimento relativo; depois, essa base foi organizada em um modelo geral de contato e transformada em código.
+
+## 1. Estudo das engrenagens espirais e hipóides
+
+A investigação aborda a espiral de Arquimedes, sua representação plana e cônica, os ângulos associados à curva e as relações geométricas relevantes para a geração de dentes. Também examina o percurso de contato entre flancos conjugados, distinguindo a trajetória do ponto de contato da linha de contato instantânea.
+
+A comparação entre engrenagens espirais de eixos intersectantes e engrenagens hipóides considera o *offset* entre os eixos e suas consequências para a cinemática e para o deslizamento. O estudo também diferencia o contato geométrico ideal do contato sob carga, no qual a deformação elástica modifica a distribuição de pressão e a região efetiva de contato.
+
+Essa etapa fornece a base conceitual para descrever o contato como um fenômeno geométrico e cinemático, e não apenas como uma característica isolada do perfil do dente.
+
+## 2. Da geometria ao modelo matemático de contato
+
+O desenvolvimento avança para uma estrutura geral aplicável a superfícies engrenadas. A sequência considerada é:
+
+**superfícies parametrizadas → conjugação geométrica e cinemática → linha de contato → movimento relativo → deformação → pressão → microtopologia → comportamento tribológico.**
+
+Essa formulação separa a geometria das superfícies dos fenômenos físicos que surgem quando o contato é carregado e lubrificado. Ela estabelece a ligação entre posição e movimento dos flancos, condições de contato e grandezas necessárias à análise tribológica.
+
+## 3. O software inicial
+
+A primeira implementação computacional dessa estrutura foi concebida como uma ferramenta genérica: não impõe uma geometria física única, mas recebe expressões paramétricas para as duas superfícies. A versão inicial documentada prevê derivadas numéricas, cálculo das normais, estimativa da velocidade relativa, testes de coincidência geométrica e da condição cinemática **v_rel · n = 0**, busca de candidatos à linha de contato e construção de uma representação do volume tribológico em torno desses candidatos.
+
+Portanto, o software inicial não deve ser confundido com o simulador tribológico integrado posterior. Sua função é estrutural: transformar a descrição matemática das superfícies e do movimento em uma base computacional para identificar e caracterizar o contato.
+
+## 4. Evolução para o simulador tribológico
+
+Sobre essa linha de desenvolvimento foram organizadas formulações para contato de Hertz, tensões superficiais e subsuperficiais, lubrificação elastohidrodinâmica (EHL), espessura de filme, atrito, aquecimento, desgaste, fadiga e mecanismos de *pitting*. Essas etapas culminaram no simulador integrado, que reúne entradas, cálculos e resultados em uma única aplicação.
+
+O código chegou a aproximadamente 20 mil linhas durante sua evolução. Esse tamanho registra a trajetória do software, mas não constitui, por si só, uma medida da validade matemática ou da necessidade de cada trecho. A avaliação do código e a verificação das fórmulas são atividades distintas da apresentação do estudo geométrico que lhe deu origem.
+
+## Escopo e ressalva
+
+Este README apresenta a etapa anterior ao simulador final: o estudo das engrenagens espirais e hipóides, a passagem para uma formulação geral do contato e a concepção do software inicial. Não substitui a documentação específica do modelo tribológico nem afirma que todas as formulações do desenvolvimento estejam experimentalmente validadas.
