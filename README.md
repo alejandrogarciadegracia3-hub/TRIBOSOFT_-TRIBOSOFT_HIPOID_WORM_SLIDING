@@ -1,4 +1,4 @@
-<h1 align="center">Engrenamento hipoidaln / Simulador tribológico de contato lubrificado</h1>
+<h1 align="center">Engrenamento hipoide / Simulador tribológico de contato lubrificado</h1>
 
 <p align="center">
   <em>Contato de Hertz, tensões subsuperficiais, filme EHL, térmica, desgaste, fadiga e pitting em um único modelo,<br>auditado contra soluções analíticas e executável no celular.</em>
