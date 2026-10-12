@@ -233,7 +233,7 @@ Se usar este trabalho, cite também as fontes da [seção 2](#2-referências).
 
 # Estudo geométrico de engrenagens espirais e hipóides — origem do TRIBOSOFT
 
-## Apresentação
+## ![Engrenagem hipóide](SBP_2236-1.jpg)
 
 Este trabalho reúne a investigação geométrica e cinemática de engrenagens cônicas espirais e hipóides e o desenvolvimento matemático que antecedeu o simulador tribológico. O software final é uma etapa posterior de um percurso mais amplo: primeiro foram estudadas as superfícies, a geração das curvas e o movimento relativo; depois, essa base foi organizada em um modelo geral de contato e transformada em código.
 
