@@ -239,7 +239,7 @@ Este trabalho reúne a investigação geométrica e cinemática de engrenagens c
 
 ## 1. Estudo das engrenagens espirais e hipóides
 
-![Desenho geométrico da engrenagem](20260922_122856.jpg)
+![Desenho geométrico da engrenagem](20260922_123620.jpg)
 
 A investigação aborda a espiral de Arquimedes, sua representação plana e cônica, os ângulos associados à curva e as relações geométricas relevantes para a geração de dentes. Também examina o percurso de contato entre flancos conjugados, distinguindo a trajetória do ponto de contato da linha de contato instantânea.
 
