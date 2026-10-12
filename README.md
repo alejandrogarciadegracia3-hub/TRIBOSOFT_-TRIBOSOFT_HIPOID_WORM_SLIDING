@@ -1,4 +1,4 @@
-<h1 align="center">Simulador tribológico de contato lubrificado</h1>
+<h1 align="center">Engrenamento hipoidaln / Simulador tribológico de contato lubrificado</h1>
 
 <p align="center">
   <em>Contato de Hertz, tensões subsuperficiais, filme EHL, térmica, desgaste, fadiga e pitting em um único modelo,<br>auditado contra soluções analíticas e executável no celular.</em>
@@ -226,9 +226,6 @@ print(relatorio)
 ## 10. Citação e licença
 
 Se usar este trabalho, cite também as fontes da [seção 2](#2-referências).
-
-**Autor:** Alejandro — *(completar nome e contato)*
-**Licença:** *(escolher, por exemplo MIT)*
 
 > [!IMPORTANT]
 > Este é um modelo de estudo. Não é uma ferramenta validada para projeto de componentes.
