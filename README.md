@@ -19,7 +19,7 @@
 <p align="center">
   <img src="graficos.png" alt="Painel de nove gráficos: pressão de contato, tensões em profundidade, filme, Λ, temperatura, integridade, curva S-N, margens por força e evolução por ciclos" width="900">
 </p>
-<p align="center"><sub>Os nove gráficos do simulador V7.81 para o caso de referência. A figura foi renderizada a partir dos mesmos comandos de desenho que o Canvas do Tkinter recebe; não é uma captura de tela do aparelho.</sub></p>
+<p align="center"><sub>Os nove gráficos do simulador V7.81 para o caso de referência. .</sub></p>
 
 ---
 
